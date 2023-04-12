@@ -17,9 +17,9 @@ lines = file.splitlines()
 tokized_lines = [nltk.word_tokenize(line) for line in lines]
 
 # join tokens with space
-tokenized_text = [" ".join(tokens) for tokens in tokized_lines]
+tokenized_text = ["\n".join(tokens) for tokens in tokized_lines]
 
 # write to file
 with open(sys.argv[2], "w", encoding="utf-8") as f:
     print("Writing to file: " + sys.argv[2])
-    f.write("\n".join(tokenized_text))
+    f.write("\n\n".join(tokenized_text))
