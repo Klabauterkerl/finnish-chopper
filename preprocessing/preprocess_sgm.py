@@ -1,3 +1,5 @@
+# Description: This script converts the SGM files to plain text format.
+
 import os
 import sys
 import glob

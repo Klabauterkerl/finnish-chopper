@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script deletes all files in a directory that don't contain the sequence "fien" or "enfi" in their name
+
 # Check if the directory path is provided as an argument
 if [ -z "$1" ]; then
   echo "Please provide a directory path"
