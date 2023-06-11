@@ -15,3 +15,19 @@ To enable the following instructions: AVX2 AVX512F FMA, in other operations, reb
 2023-06-06 23:14:03 | INFO | fairseq_cli.preprocess | [en] Dictionary: 15520 types
 2023-06-06 23:14:04 | INFO | fairseq_cli.preprocess | [en] /content/drive/MyDrive/translation_model/dataset/test.bpe.en: 1942 sents, 59098 tokens, 1.61% replaced (by <unk>)
 2023-06-06 23:14:04 | INFO | fairseq_cli.preprocess | Wrote preprocessed data to /content/drive/MyDrive/translation_model/data-bin
+
+## Double Underscore:
+2023-06-11 14:09:04 | INFO | fairseq_cli.preprocess | Namespace(no_progress_bar=False, log_interval=100, log_format=None, log_file=None, aim_repo=None, aim_run_hash=None, tensorboard_logdir=None, wandb_project=None, azureml_logging=False, seed=1, cpu=False, tpu=False, bf16=False, memory_efficient_bf16=False, fp16=False, memory_efficient_fp16=False, fp16_no_flatten_grads=False, fp16_init_scale=128, fp16_scale_window=None, fp16_scale_tolerance=0.0, on_cpu_convert_precision=False, min_loss_scale=0.0001, threshold_loss_scale=None, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, user_dir=None, empty_cache_freq=0, all_gather_list_size=16384, model_parallel_size=1, quantization_config_path=None, profile=False, reset_logging=False, suppress_crashes=False, use_plasma_view=False, plasma_path='/tmp/plasma', criterion='cross_entropy', tokenizer=None, bpe=None, optimizer=None, lr_scheduler='fixed', scoring='bleu', task='translation', source_lang='fi', target_lang='en', trainpref='data/dataset/morfessor_double_underscore/train.bpe_double_underscore', validpref='data/dataset/morfessor_double_underscore/dev.bpe_double_underscore', testpref='data/dataset/morfessor_double_underscore/test.bpe_double_underscore', align_suffix=None, destdir='data/data-bin/morfessor_double_underscore', thresholdtgt=0, thresholdsrc=0, tgtdict=None, srcdict=None, nwordstgt=-1, nwordssrc=-1, alignfile=None, dataset_impl='mmap', joined_dictionary=False, only_source=False, padding_factor=8, workers=20, dict_only=False)
+2023-06-11 14:09:21 | INFO | fairseq_cli.preprocess | [fi] Dictionary: 49040 types
+2023-06-11 14:09:44 | INFO | fairseq_cli.preprocess | [fi] data/dataset/morfessor_double_underscore/train.bpe_double_underscore.fi: 1676078 sents, 42797136 tokens, 0.0% replaced (by <unk>)
+2023-06-11 14:09:44 | INFO | fairseq_cli.preprocess | [fi] Dictionary: 49040 types
+2023-06-11 14:09:48 | INFO | fairseq_cli.preprocess | [fi] data/dataset/morfessor_double_underscore/dev.bpe_double_underscore.fi: 2969 sents, 78884 tokens, 0.313% replaced (by <unk>)
+2023-06-11 14:09:48 | INFO | fairseq_cli.preprocess | [fi] Dictionary: 49040 types
+2023-06-11 14:09:52 | INFO | fairseq_cli.preprocess | [fi] data/dataset/morfessor_double_underscore/test.bpe_double_underscore.fi: 1942 sents, 62470 tokens, 0.247% replaced (by <unk>)
+2023-06-11 14:09:52 | INFO | fairseq_cli.preprocess | [en] Dictionary: 16288 types
+2023-06-11 14:10:14 | INFO | fairseq_cli.preprocess | [en] data/dataset/morfessor_double_underscore/train.bpe_double_underscore.en: 1676078 sents, 43583035 tokens, 0.0% replaced (by <unk>)
+2023-06-11 14:10:14 | INFO | fairseq_cli.preprocess | [en] Dictionary: 16288 types
+2023-06-11 14:10:17 | INFO | fairseq_cli.preprocess | [en] data/dataset/morfessor_double_underscore/dev.bpe_double_underscore.en: 2969 sents, 78743 tokens, 0.0% replaced (by <unk>)
+2023-06-11 14:10:17 | INFO | fairseq_cli.preprocess | [en] Dictionary: 16288 types
+2023-06-11 14:10:21 | INFO | fairseq_cli.preprocess | [en] data/dataset/morfessor_double_underscore/test.bpe_double_underscore.en: 1942 sents, 58251 tokens, 0.0% replaced (by <unk>)
+2023-06-11 14:10:21 | INFO | fairseq_cli.preprocess | Wrote preprocessed data to data/data-bin/morfessor_double_underscore
